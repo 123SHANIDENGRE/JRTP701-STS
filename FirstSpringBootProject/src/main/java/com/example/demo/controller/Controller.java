@@ -15,4 +15,12 @@ public class Controller {
 		return "hello World";
 	}
 
+	
+	@GetMapping("/hello")
+	public String  Hello1()
+	{
+		
+		return "hello World";
+	}
+
 }
