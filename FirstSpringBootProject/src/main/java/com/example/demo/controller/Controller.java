@@ -16,6 +16,17 @@ public class Controller {
 	}
 
 	
+	
+	@GetMapping("/payment")
+	public String  payment()
+	{
+		
+		return "payment branch code";
+	}
+
+	
+	
+	
 	@GetMapping("/hello")
 	public String  Hello1()
 	{
