@@ -1,0 +1,967 @@
+2024-10-16 20:27:13,365[main] INFO  c.nt.SpringBootLoggingProj01Application           - Starting SpringBootLoggingProj01Application using Java 21.0.4 with PID 29672 (C:\Users\shani\Documents\JRTP701-RealTimeProject\SpringBootLoggingProj3\target\classes started by shani in C:\Users\shani\Documents\JRTP701-RealTimeProject\SpringBootLoggingProj3)
+2024-10-16 20:27:13,365[main] INFO  c.nt.SpringBootLoggingProj01Application           - Starting SpringBootLoggingProj01Application using Java 21.0.4 with PID 29672 (C:\Users\shani\Documents\JRTP701-RealTimeProject\SpringBootLoggingProj3\target\classes started by shani in C:\Users\shani\Documents\JRTP701-RealTimeProject\SpringBootLoggingProj3)
+2024-10-16 20:27:13,367[main] DEBUG c.nt.SpringBootLoggingProj01Application           - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-16 20:27:13,367[main] DEBUG c.nt.SpringBootLoggingProj01Application           - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-16 20:27:13,375[main] INFO  c.nt.SpringBootLoggingProj01Application           - No active profile set, falling back to 1 default profile: "default"
+2024-10-16 20:27:13,375[main] INFO  c.nt.SpringBootLoggingProj01Application           - No active profile set, falling back to 1 default profile: "default"
+2024-10-16 20:27:14,390[main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer           - Tomcat initialized with port 4042 (http)
+2024-10-16 20:27:14,403[main] INFO  o.apache.coyote.http11.Http11NioProtocol          - Initializing ProtocolHandler ["http-nio-4042"]
+2024-10-16 20:27:14,407[main] INFO  o.apache.catalina.core.StandardService            - Starting service [Tomcat]
+2024-10-16 20:27:14,408[main] INFO  org.apache.catalina.core.StandardEngine           - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-16 20:27:14,448[main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                - Initializing Spring embedded WebApplicationContext
+2024-10-16 20:27:14,448[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    - Root WebApplicationContext: initialization completed in 1020 ms
+2024-10-16 20:27:14,749[main] INFO  o.apache.coyote.http11.Http11NioProtocol          - Starting ProtocolHandler ["http-nio-4042"]
+2024-10-16 20:27:14,775[main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer           - Tomcat started on port 4042 (http) with context path '/'
+2024-10-16 20:27:14,780[main] INFO  c.nt.SpringBootLoggingProj01Application           - Started SpringBootLoggingProj01Application in 1.844 seconds (process running for 2.695)
+2024-10-16 20:27:14,780[main] INFO  c.nt.SpringBootLoggingProj01Application           - Started SpringBootLoggingProj01Application in 1.844 seconds (process running for 2.695)
+2024-10-16 20:27:30,191[http-nio-4042-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-16 20:27:30,192[http-nio-4042-exec-1] INFO  o.s.web.servlet.DispatcherServlet                 - Initializing Servlet 'dispatcherServlet'
+2024-10-16 20:27:30,198[http-nio-4042-exec-1] INFO  o.s.web.servlet.DispatcherServlet                 - Completed initialization in 6 ms
+2024-10-16 20:27:30,257[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:30,257[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:30,258[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:30,258[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:30,258[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:30,258[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:30,389[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:30,389[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:30,391[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:30,391[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:30,392[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:30,392[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:30,543[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:30,543[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:30,544[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:30,544[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:30,545[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:30,545[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:30,715[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:30,715[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:30,716[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:30,716[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:30,717[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:30,717[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:30,877[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:30,877[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:30,881[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:30,881[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:30,881[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:30,881[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:31,048[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:31,048[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:31,051[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:31,051[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:31,051[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:31,051[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:31,208[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:31,208[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:31,210[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:31,210[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:31,210[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:31,210[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:31,375[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:31,375[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:31,376[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:31,376[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:31,377[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:31,377[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:31,533[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:31,533[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:31,533[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:31,533[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:31,533[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:31,533[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:31,684[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:31,684[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:31,684[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:31,684[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:31,684[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:31,684[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:31,834[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:31,834[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:31,835[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:31,835[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:31,836[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:31,836[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:31,986[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:31,986[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:31,986[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:31,986[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:31,986[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:31,986[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:32,121[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:32,121[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:32,121[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:32,121[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:32,122[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:32,122[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:32,266[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:32,266[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:32,267[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:32,267[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:32,268[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:32,268[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:32,396[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:32,396[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:32,397[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:32,397[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:32,397[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:32,397[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:32,523[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:32,523[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:32,524[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:32,524[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:32,524[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:32,524[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:32,603[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:32,603[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:32,603[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:32,603[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:32,603[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:32,603[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:32,745[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:32,745[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:32,746[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:32,746[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:32,748[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:32,748[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:32,924[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:32,924[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:32,925[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:32,925[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:32,925[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:32,925[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:33,079[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:33,079[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:33,080[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:33,080[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:33,080[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:33,080[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:33,265[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:33,265[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:33,266[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:33,266[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:33,266[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:33,266[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:33,457[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:33,457[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:33,457[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:33,457[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:33,457[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:33,457[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:33,600[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:33,600[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:33,601[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:33,601[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:33,601[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:33,601[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:33,763[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:33,763[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:33,763[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:33,763[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:33,763[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:33,763[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:33,920[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:33,920[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:33,921[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:33,921[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:33,921[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:33,921[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:34,085[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:34,085[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:34,085[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:34,085[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:34,085[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:34,085[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:34,275[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:34,275[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:34,276[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:34,276[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:34,276[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:34,276[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:34,461[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:34,461[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:34,461[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:34,461[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:34,461[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:34,461[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:34,637[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:34,637[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:34,638[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:34,638[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:34,639[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:34,639[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:34,800[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:34,800[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:34,801[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:34,801[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:34,801[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:34,801[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:34,966[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:34,966[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:34,967[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:34,967[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:34,967[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:34,967[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:35,136[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:35,136[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:35,136[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:35,136[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:35,136[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:35,136[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:35,317[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:35,317[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:35,317[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:35,317[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:35,317[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:35,317[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:35,495[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:35,495[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:35,495[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:35,495[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:35,495[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:35,495[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:35,681[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:35,681[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:35,681[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:35,681[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:35,681[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:35,681[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:35,835[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:35,835[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:35,835[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:35,835[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:35,835[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:35,835[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:36,002[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:36,002[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:36,002[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:36,002[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:36,002[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:36,002[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:36,184[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:36,184[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:36,185[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:36,185[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:36,185[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:36,185[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:36,387[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:36,387[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:36,388[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:36,388[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:36,388[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:36,388[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:36,575[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:36,575[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:36,577[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:36,577[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:36,580[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:36,580[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:36,754[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:36,754[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:36,754[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:36,754[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:36,754[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:36,754[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:36,926[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:36,926[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:36,927[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:36,927[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:36,927[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:36,927[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:37,143[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:37,143[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:37,143[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:37,143[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:37,143[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:37,143[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:37,296[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:37,296[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:37,296[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:37,296[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:37,296[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:37,296[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:37,465[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:37,465[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:37,465[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:37,465[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:37,465[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:37,465[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:37,630[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:37,630[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:37,630[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:37,630[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:37,630[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:37,630[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:37,814[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:37,814[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:37,814[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:37,814[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:37,814[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:37,814[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:37,999[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:37,999[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:37,999[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:37,999[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:37,999[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:37,999[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:38,184[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:38,184[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:38,184[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:38,184[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:38,184[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:38,184[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:38,342[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:38,342[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:38,342[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:38,342[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:38,342[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:38,342[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:38,524[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:38,524[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:38,524[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:38,524[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:38,524[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:38,524[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:38,723[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:38,723[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:38,724[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:38,724[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:38,724[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:38,724[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:38,903[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:38,903[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:38,904[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:38,904[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:38,906[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:38,906[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:39,069[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:39,069[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:39,069[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:39,069[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:39,069[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:39,069[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:39,241[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:39,241[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:39,241[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:39,241[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:39,241[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:39,241[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:39,404[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:39,404[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:39,406[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:39,406[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:39,410[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:39,410[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:39,582[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:39,582[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:39,583[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:39,583[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:39,583[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:39,583[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:39,761[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:39,761[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:39,761[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:39,761[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:39,761[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:39,761[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:39,926[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:39,926[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:39,927[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:39,927[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:39,928[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:39,928[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:40,103[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:40,103[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:40,103[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:40,103[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:40,103[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:40,103[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:40,287[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:40,287[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:40,287[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:40,287[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:40,287[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:40,287[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:40,488[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:40,488[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:40,488[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:40,488[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:40,488[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:40,488[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:40,677[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:40,677[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:40,677[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:40,677[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:40,677[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:40,677[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:40,851[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:40,851[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:40,851[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:40,851[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:40,852[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:40,852[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:41,013[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:41,013[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:41,013[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:41,013[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:41,013[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:41,013[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:41,196[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:41,196[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:41,196[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:41,196[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:41,196[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:41,196[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:41,380[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:41,380[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:41,380[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:41,380[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:41,380[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:41,380[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:41,537[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:41,537[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:41,539[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:41,539[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:41,539[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:41,539[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:41,754[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:41,754[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:41,754[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:41,754[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:41,754[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:41,754[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:43,178[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:43,178[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:43,178[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:43,178[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:43,178[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:43,178[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:43,325[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:43,325[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:43,325[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:43,325[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:43,325[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:43,325[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:43,481[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:43,481[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:43,481[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:43,481[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:43,483[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:43,483[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:43,626[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:43,626[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:43,626[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:43,626[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:43,626[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:43,626[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:43,768[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:43,768[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:43,768[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:43,768[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:43,768[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:43,768[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:43,903[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:43,903[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:43,903[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:43,903[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:43,903[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:43,903[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:44,134[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:44,134[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:44,135[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:44,135[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:44,135[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:44,135[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:44,551[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:44,551[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:44,551[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:44,551[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:44,551[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:44,551[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:44,731[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:44,731[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:44,731[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:44,731[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:44,731[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:44,731[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:44,914[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:44,914[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:44,915[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:44,915[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:44,915[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:44,915[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:45,100[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:45,100[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:45,100[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:45,100[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:45,101[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:45,101[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:45,268[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:45,268[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:45,268[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:45,268[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:45,268[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:45,268[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:45,441[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:45,441[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:45,441[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:45,441[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:45,441[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:45,441[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:45,597[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:45,597[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:45,597[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:45,597[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:45,597[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:45,597[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:45,767[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:45,767[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:45,767[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:45,767[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:45,767[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:45,767[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:45,969[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:45,969[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:45,969[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:45,969[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:45,969[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:45,969[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:46,164[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:46,164[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:46,164[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:46,164[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:46,164[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:46,164[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:46,322[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:46,322[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:46,322[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:46,322[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:46,323[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:46,323[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:46,488[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:46,488[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:46,490[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:46,490[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:46,490[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:46,490[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:46,710[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:46,710[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:46,710[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:46,710[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:46,711[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:46,711[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:46,894[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:46,894[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:46,894[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:46,894[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:46,894[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:46,894[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:47,072[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:47,072[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:47,072[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:47,072[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:47,072[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:47,072[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:47,234[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:47,234[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:47,234[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:47,234[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:47,234[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:47,234[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:47,401[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:47,401[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:47,401[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:47,401[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:47,402[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:47,402[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:47,582[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:47,582[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:47,583[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:47,583[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:47,583[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:47,583[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:47,761[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:47,761[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:47,761[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:47,761[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:47,761[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:47,761[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:47,952[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:47,952[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:47,952[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:47,952[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:47,952[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:47,952[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:48,130[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:48,130[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:48,130[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:48,130[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:48,130[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:48,130[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:48,299[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:48,299[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:48,299[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:48,299[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:48,299[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:48,299[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:48,479[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:48,479[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:48,479[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:48,479[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:48,479[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:48,479[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:48,642[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:48,642[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:48,642[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:48,642[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:48,642[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:48,642[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:48,794[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:48,794[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:48,795[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:48,795[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:48,795[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:48,795[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:48,942[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:48,942[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:48,942[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:48,942[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:48,942[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:48,942[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:49,099[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:49,099[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:49,099[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:49,099[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:49,099[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:49,099[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:49,234[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:49,234[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:49,234[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:49,234[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:49,234[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:49,234[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:49,328[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:49,328[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:49,329[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:49,329[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:49,329[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:49,329[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:49,473[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:49,473[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:49,474[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:49,474[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:49,474[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:49,474[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:49,627[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:49,627[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:49,627[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:49,627[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:49,627[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:49,627[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:49,796[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:49,796[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:49,796[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:49,796[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:49,796[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:49,796[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:49,936[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:49,936[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:49,936[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:49,936[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:49,936[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:49,936[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:50,063[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:50,063[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:50,063[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:50,063[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:50,063[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:50,063[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:50,234[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:50,234[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:50,234[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:50,234[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:50,234[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:50,234[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:50,375[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:50,375[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:50,375[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:50,375[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:50,375[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:50,375[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:50,546[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:50,546[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:50,546[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:50,546[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:50,546[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:50,546[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:50,737[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:50,737[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:50,737[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:50,737[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:50,737[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:50,737[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:50,918[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:50,918[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:50,919[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:50,919[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:50,919[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:50,919[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:51,081[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:51,081[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:51,081[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:51,081[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:51,081[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:51,081[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:51,257[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:51,257[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:51,258[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:51,258[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:51,258[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:51,258[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:51,436[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:51,436[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:51,436[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:51,436[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:51,436[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:51,436[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:51,623[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:51,623[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:51,623[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:51,623[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:51,623[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:51,623[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:51,793[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:51,793[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:51,794[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:51,794[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:51,794[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:51,794[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:51,980[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:51,980[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:51,980[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:51,980[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:51,980[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:51,980[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:52,165[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:52,165[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:52,165[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:52,165[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:52,165[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:52,165[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:52,358[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:52,358[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:52,358[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:52,358[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:52,358[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:52,358[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:52,524[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:52,524[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:52,524[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:52,524[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:52,524[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:52,524[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:52,694[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:52,694[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:52,694[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:52,694[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:52,694[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:52,694[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:52,865[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:52,865[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:52,866[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:52,866[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:52,866[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:52,866[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:53,034[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:53,034[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:53,034[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:53,034[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:53,034[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:53,034[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:53,271[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:53,271[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:53,271[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:53,271[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:53,271[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:53,271[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:53,386[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:53,386[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:53,386[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:53,386[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:53,386[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:53,386[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:53,551[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:53,551[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:53,551[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:53,551[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:53,551[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:53,551[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:53,709[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:53,709[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:53,709[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:53,709[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:53,709[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:53,709[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:53,885[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:53,885[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:53,885[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:53,885[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:53,885[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:53,885[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:54,063[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:54,063[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:54,063[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:54,063[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:54,063[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:54,063[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:54,231[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:54,231[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:54,231[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:54,231[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:54,231[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:54,231[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:54,405[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:54,405[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:54,405[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:54,405[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:54,405[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:54,405[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:54,585[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:54,585[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:54,585[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:54,585[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:54,585[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:54,585[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:54,762[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:54,762[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:54,763[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:54,763[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:54,763[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:54,763[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:54,946[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:54,946[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:54,946[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:54,946[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:54,946[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:54,946[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:55,117[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:55,117[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:55,117[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:55,117[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:55,117[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:55,117[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:55,296[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:55,296[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:55,297[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:55,297[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:55,297[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:55,297[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:56,546[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:56,546[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:56,546[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:56,546[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:56,546[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:56,546[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:56,705[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:56,705[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:56,705[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:56,705[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:56,705[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:56,705[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:56,854[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:56,854[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:56,854[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:56,854[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:56,854[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:56,854[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:57,004[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:57,004[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:57,004[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:57,004[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:57,004[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:57,004[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:57,121[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:57,121[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:57,121[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:57,121[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:57,121[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:57,121[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:57,241[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:57,241[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:57,241[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:57,241[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:57,241[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:57,241[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:57,395[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:57,395[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:57,395[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:57,395[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:57,395[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:57,395[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:57,573[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:57,573[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:57,573[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:57,573[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:57,573[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:57,573[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:57,720[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:57,720[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:57,720[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:57,720[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:57,720[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:57,720[http-nio-4042-exec-9] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:57,904[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:57,904[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:57,904[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:57,904[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:57,904[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:57,904[http-nio-4042-exec-10] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:58,124[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:58,124[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:58,124[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:58,124[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:58,124[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:58,124[http-nio-4042-exec-1] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:58,307[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:58,307[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:58,307[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:58,307[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:58,307[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:58,307[http-nio-4042-exec-3] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:58,485[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:58,485[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:58,485[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:58,485[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:58,485[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:58,485[http-nio-4042-exec-4] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:58,643[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:58,643[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:58,644[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:58,644[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:58,644[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:58,644[http-nio-4042-exec-2] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:58,806[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:58,806[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:58,806[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:58,806[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:58,806[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:58,806[http-nio-4042-exec-5] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:58,961[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:58,961[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:58,961[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:58,961[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:58,961[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:58,961[http-nio-4042-exec-6] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:59,110[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:59,110[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:59,111[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:59,111[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:59,111[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:59,111[http-nio-4042-exec-7] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:59,288[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:59,288[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - At begining of div() method
+2024-10-16 20:27:59,288[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:59,288[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Performing Arithimetric Operation
+2024-10-16 20:27:59,288[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
+2024-10-16 20:27:59,288[http-nio-4042-exec-8] DEBUG c.nt.Rest.ArithmeticOperationController           - Arithimetric Operation completed successfully
