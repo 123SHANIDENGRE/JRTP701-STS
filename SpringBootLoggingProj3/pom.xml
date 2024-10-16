@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>nit</groupId>
-	<artifactId>SpringBootLoggingProj01</artifactId>
+	<artifactId>SpringBootLoggingProj03</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
-	<name>SpringBootLoggingProj01</name>
+	<packaging>jar</packaging>
+	<name>SpringBootLoggingProj03</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
