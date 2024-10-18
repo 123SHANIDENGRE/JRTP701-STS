@@ -12,11 +12,10 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
-import lombok.Data;
 
 @Entity
 @Table(name = "JRTP701_Plan_Category")
-@Data
+
 public class PlanCategory {
 
 	@Id
@@ -24,11 +23,12 @@ public class PlanCategory {
 	@GeneratedValue(generator = "gen1", strategy = GenerationType.SEQUENCE)
 	@Column(name = "Category_Id")
 	private Integer categoryId;
+	
 	@Column(name = "Category_Name", length = 30)
 	private String categoryName;
 
 	@Column(name = "ACTIVE_SW", length = 15)
-	private String activeSW;
+	private String activeSW="active";
 
 	@Column(name = "Created_Date", updatable = false)
 	@CreationTimestamp
@@ -43,5 +43,64 @@ public class PlanCategory {
 
 	@Column(name = "Updated_By", length = 20)
 	private String updatedBy;
+
+	public Integer getCategoryId() {
+		return categoryId;
+	}
+
+	public void setCategoryId(Integer categoryId) {
+		this.categoryId = categoryId;
+	}
+
+	public String getCategoryName() {
+		return categoryName;
+	}
+
+	public void setCategoryName(String categoryName) {
+		this.categoryName = categoryName;
+	}
+
+	public String getActiveSW() {
+		return activeSW;
+	}
+
+	public void setActiveSW(String activeSW) {
+		this.activeSW = activeSW;
+	}
+
+	public LocalDateTime getCreatedDate() {
+		return createdDate;
+	}
+
+	public void setCreatedDate(LocalDateTime createdDate) {
+		this.createdDate = createdDate;
+	}
+
+	public LocalDateTime getUpdatedDate() {
+		return updatedDate;
+	}
+
+	public void setUpdatedDate(LocalDateTime updatedDate) {
+		this.updatedDate = updatedDate;
+	}
+
+	public String getCreatedBy() {
+		return createdBy;
+	}
+
+	public void setCreatedBy(String createdBy) {
+		this.createdBy = createdBy;
+	}
+
+	public String getUpdatedBy() {
+		return updatedBy;
+	}
+
+	public void setUpdatedBy(String updatedBy) {
+		this.updatedBy = updatedBy;
+	}
+	
+	
+	
 
 }
