@@ -8,6 +8,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.nt.config.AppConfigProperties;
+import com.nt.constants.TravelPlanConstants;
 import com.nt.entity.PlanCategory;
 import com.nt.entity.TravelPlan;
 import com.nt.repository.IPlanCategoryRepository;
@@ -22,6 +24,14 @@ public class TravelPlanMgmtServiceImpl implements ITravelPlanMgmtService {
 	@Autowired
 	private IPlanCategoryRepository planCategoryRepo;
 
+	private Map<String, String> messages;
+
+
+	public TravelPlanMgmtServiceImpl(AppConfigProperties props) {
+		messages = props.getMessages();
+	
+	}
+
 	@Override
 	public String registerTravelPlan(TravelPlan plan) {
 
@@ -32,8 +42,8 @@ public class TravelPlanMgmtServiceImpl implements ITravelPlanMgmtService {
 		 * "Problem in saving the TravelPlan"; }
 		 */
 
-		return saved.getPlanId() != null ? "Travel plan is saved with id value ::" + saved.getPlanId()
-				: "Problem in saving the TourPlan ";
+		return saved.getPlanId() != null ? messages.get(TravelPlanConstants.SAVE_SUCCESS) + saved.getPlanId()
+				: messages.get(TravelPlanConstants.SAVE_FAILURE);
 
 	}
 
@@ -66,7 +76,7 @@ public class TravelPlanMgmtServiceImpl implements ITravelPlanMgmtService {
 		 */
 
 		return travelPlanRepo.findById(planId)
-				.orElseThrow(() -> new IllegalArgumentException("Travel Plan is Not Found"));
+				.orElseThrow(() -> new IllegalArgumentException(messages.get(TravelPlanConstants.FIND_BY_ID_FAILURE)));
 
 	}
 
@@ -76,10 +86,10 @@ public class TravelPlanMgmtServiceImpl implements ITravelPlanMgmtService {
 		Optional<TravelPlan> opt = travelPlanRepo.findById(plan.getPlanId());
 		if (opt.isPresent()) {
 			travelPlanRepo.save(plan);
-			return plan.getPlanId() + "is updated";
+			return plan.getPlanId() + messages.get(TravelPlanConstants.UPDATE_SUCCESS);
 
 		} else {
-			return plan.getPlanId() + " Travel Plan is not Found";
+			return plan.getPlanId() +messages.get( TravelPlanConstants.UPDATE_FAILURE);
 		}
 	}
 
@@ -89,10 +99,10 @@ public class TravelPlanMgmtServiceImpl implements ITravelPlanMgmtService {
 		Optional<TravelPlan> opt = travelPlanRepo.findById(planId);
 		if (opt.isPresent()) {
 			travelPlanRepo.deleteById(planId);
-			return planId + "Travel Plan  is  Deleted";
+			return planId +  messages.get(TravelPlanConstants.DELETE_SUCCESS);
 
 		} else {
-			return planId + "  Travel Plan is not Found";
+			return planId + messages.get(TravelPlanConstants.DELETE_FAILURE);
 		}
 	}
 
@@ -103,9 +113,9 @@ public class TravelPlanMgmtServiceImpl implements ITravelPlanMgmtService {
 			TravelPlan plan = opt.get();
 			plan.setActiveSW(status);
 			travelPlanRepo.save(plan);
-			return "Travel Plan  Status is Changed";
+			return   messages.get(TravelPlanConstants.STATUS_CHANGE_SUCCESS);
 		} else {
-			return planId + " Travel Plan is not found  updation";
+			return planId +  messages.get(TravelPlanConstants.STATUS_CHANGE_FAILURE);
 		}
 	}
 

@@ -13,3 +13,15 @@ spring:
     show-sql: true
 server:
   port: 4044
+plan: 
+ module: 
+    messages: 
+        save-success: Travel Plan is saved with  id value
+        save-failure:  Travel Plan is  not saved with  value
+        find-by-id-failure:  Travel plan  is not Found
+        update-success: Travel Plan  is updated
+        update-failure:  Travel Plan  is not found for updation
+        delete-success: Travel Plan  is deleted
+        delete-failure:  Travel Plan  is not found for deletion
+        status-change-success: Travel Plan  status is changed
+        status-change-failure: Travel Plan is not found for status
