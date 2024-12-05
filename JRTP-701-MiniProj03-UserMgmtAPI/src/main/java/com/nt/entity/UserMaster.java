@@ -26,13 +26,13 @@ public class UserMaster {
 	private String password;
 	@Column(length=30,unique = true,nullable = false)
 	private String email;
-	private Long MobileNo;
+	private Long mobileNo;
 	private Long aadharNo;
 	@Column(length=10)
 	private String gender;
 	private LocalDate dob;
 	@Column(length=10)
-	private String active_sw;
+	private String activeSw;
 	
 	//MetaData
 	@CreationTimestamp
@@ -82,12 +82,14 @@ public class UserMaster {
 		this.email = email;
 	}
 
+	
+
 	public Long getMobileNo() {
-		return MobileNo;
+		return mobileNo;
 	}
 
 	public void setMobileNo(Long mobileNo) {
-		MobileNo = mobileNo;
+		this.mobileNo = mobileNo;
 	}
 
 	public Long getAadharNo() {
@@ -114,12 +116,14 @@ public class UserMaster {
 		this.dob = dob;
 	}
 
-	public String getActive_sw() {
-		return active_sw;
+	
+
+	public String getActiveSw() {
+		return activeSw;
 	}
 
-	public void setActive_sw(String active_sw) {
-		this.active_sw = active_sw;
+	public void setActiveSw(String activeSw) {
+		this.activeSw = activeSw;
 	}
 
 	public LocalDateTime getCreatedOn() {
@@ -154,19 +158,20 @@ public class UserMaster {
 		this.updatedBy = updatedBy;
 	}
 
+	
 	public UserMaster(Integer userId, String name, String password, String email, Long mobileNo, Long aadharNo,
-			String gender, LocalDate dob, String active_sw, LocalDateTime createdOn, LocalDateTime updatedOn,
+			String gender, LocalDate dob, String activeSw, LocalDateTime createdOn, LocalDateTime updatedOn,
 			String createBy, String updatedBy) {
 		super();
 		this.userId = userId;
 		this.name = name;
 		this.password = password;
 		this.email = email;
-		MobileNo = mobileNo;
+		this.mobileNo = mobileNo;
 		this.aadharNo = aadharNo;
 		this.gender = gender;
 		this.dob = dob;
-		this.active_sw = active_sw;
+		this.activeSw = activeSw;
 		this.createdOn = createdOn;
 		this.updatedOn = updatedOn;
 		this.createBy = createBy;
@@ -175,7 +180,7 @@ public class UserMaster {
 
 	public UserMaster() {
 		super();
-		// TODO Auto-generated constructor stub
+	
 	}
 	
 }

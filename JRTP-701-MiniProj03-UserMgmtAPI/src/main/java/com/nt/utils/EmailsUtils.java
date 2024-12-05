@@ -2,6 +2,8 @@ package com.nt.utils;
 
 import java.util.Date;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
@@ -14,6 +16,8 @@ public class EmailsUtils {
 	
 	@Autowired
 	private JavaMailSender mailSender;
+	
+	private static  Logger  log=LoggerFactory.getLogger(EmailsUtils.class);
 	
 	public boolean sendEmailMeassage(String toMail,String subject,String body)throws Exception
 	{ 
@@ -30,7 +34,7 @@ public class EmailsUtils {
 			 mailSentStatus=true;
 		 }catch(Exception e)
 		 {
-			 e.printStackTrace();
+				log.error(e.getMessage());
 			 throw e;
 		 }
 		return mailSentStatus;

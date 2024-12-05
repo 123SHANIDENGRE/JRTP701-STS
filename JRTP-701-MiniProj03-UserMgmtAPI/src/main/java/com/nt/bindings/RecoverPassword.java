@@ -23,7 +23,7 @@ public class RecoverPassword {
 	}
 	public RecoverPassword() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	

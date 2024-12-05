@@ -4,7 +4,7 @@ public class LoginCredentials {
 
 	
 	private String email;
-	private String Password;
+	private String password;
 	public String getEmail() {
 		return email;
 	}
@@ -12,19 +12,19 @@ public class LoginCredentials {
 		this.email = email;
 	}
 	public String getPassword() {
-		return Password;
+		return password;
 	}
 	public void setPassword(String password) {
-		Password = password;
+		this.password = password;
 	}
 	public LoginCredentials(String email, String password) {
 		super();
 		this.email = email;
-		Password = password;
+		this.password = password;
 	}
 	public LoginCredentials() {
 		super();
-		// TODO Auto-generated constructor stub
+	
 	}
 	
 }

@@ -5,6 +5,8 @@ import java.io.FileReader;
 import java.util.List;
 import java.util.Optional;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
@@ -30,6 +32,9 @@ public class UserMgmtServiceImpl implements IUserMgmtService {
 	
 	@Autowired
 	private Environment env;
+	
+	private static  Logger  log=LoggerFactory.getLogger(UserMgmtServiceImpl.class);
+	
 
 	@Override
 	public String registerUser(UserAccount user) throws Exception{
@@ -40,7 +45,7 @@ public class UserMgmtServiceImpl implements IUserMgmtService {
 		// set random string of 6 chars as password
 		String tempPwd=generateRandomPassword(6);
 		master.setPassword(tempPwd);
-		master.setActive_sw("InActive");
+		master.setActiveSw("InActive");
 		// save object
 		UserMaster savedMaster = userMasterRepo.save(master);
 		//perform send mail operations
@@ -48,7 +53,7 @@ public class UserMgmtServiceImpl implements IUserMgmtService {
 		String body=readEmailMessageBody(env.getProperty("mailbody.registeruser.location"), user.getName(), tempPwd);
 		emailUtils.sendEmailMeassage(user.getEmail(), subject, body);
 		
-		return savedMaster != null ? "User is registered with Id Value=" + savedMaster.getUserId()+
+		return savedMaster.getUserId() != null ? "User is registered with Id Value=" + savedMaster.getUserId()+
 				"check mail for temporary password"	: "Problem is user registration";
 
 	}
@@ -81,12 +86,12 @@ public class UserMgmtServiceImpl implements IUserMgmtService {
 
 		UserMaster entity = userMasterRepo.findByEmailAndPassword(user.getEmail(), user.getTempPassword());
 		if (entity == null) {
-			return "User is not 	found for activation";
+			return "User is not found for activation";
 		} else {
 			// set confirm password
 			entity.setPassword(user.getConfirmPassword());
 			// set status is active
-			entity.setActive_sw("Active");
+			entity.setActiveSw("Active");
 			// update entity
 			userMasterRepo.save(entity);
 
@@ -111,7 +116,7 @@ public class UserMgmtServiceImpl implements IUserMgmtService {
 		} else {
 			// get entity object
 			UserMaster entity = listUsers.get(0);
-			if (entity.getActive_sw().equalsIgnoreCase("Active")) {
+			if (entity.getActiveSw().equalsIgnoreCase("Active")) {
 				return "Valid Credentials and Login Successful";
 
 			} else {
@@ -153,7 +158,7 @@ public class UserMgmtServiceImpl implements IUserMgmtService {
 		// load the user by finbyId
 		Optional<UserMaster> master = userMasterRepo.findById(id);
 		UserAccount account = null;
-		if (master != null) {
+		if (master.isPresent()) {
 			account = new UserAccount();
 			BeanUtils.copyProperties(master.get(), account);
 		}
@@ -212,7 +217,7 @@ public class UserMgmtServiceImpl implements IUserMgmtService {
 			// get Entity
 			UserMaster master = opt.get();
 			// change the status
-			master.setActive_sw(status);
+			master.setActiveSw(status);
 			// update the object
 			userMasterRepo.save(master);
 
@@ -282,7 +287,7 @@ public class UserMgmtServiceImpl implements IUserMgmtService {
 			mailBody=   mailBody.replace("{URL", url);
 		} // try
 		catch (Exception e) {
-			e.printStackTrace();
+			log.error(e.getMessage());
 			throw e;
 
 		}

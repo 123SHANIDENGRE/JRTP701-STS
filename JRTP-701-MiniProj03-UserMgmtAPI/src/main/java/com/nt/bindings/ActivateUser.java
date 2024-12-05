@@ -40,7 +40,7 @@ public class ActivateUser {
 	}
 	public ActivateUser() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 
