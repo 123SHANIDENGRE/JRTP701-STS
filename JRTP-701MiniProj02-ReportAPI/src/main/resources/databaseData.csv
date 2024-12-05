@@ -1,0 +1,56 @@
+course_id,admin_contact,admin_name,course_category,course_name,course_status,created_by,creation_date,faculty_name,fee,location,start_date,training_mode,updated_by,updation_date
+1,5550123,"Jane Smith",Programming,"Java Programming",Active,admin,NULL,"John Doe",299.99,"New York","2024-01-15 10:00:00.000000",Online,admin,NULL
+2,5550456,"Bob Brown","Data Analytics","Data Science",Active,admin,NULL,"Alice Johnson",399.99,"San Francisco","2024-02-20 09:00:00.000000",In-person,admin,NULL
+3,5550789,"Mary Johnson",Programming,"Web Development",Active,admin,NULL,"Emily Davis",250,Chicago,"2024-03-10 14:00:00.000000",Hybrid,admin,NULL
+4,88551122,"Sarah Wilson",Cybersecurity,"Cybersecurity Fundamentals",Active,admin,NULL,"Michael Green",350,"Los Angeles","2024-04-05 13:00:00.000000",Online,admin,NULL
+5,5552233,"Chris Black","Machine Learning","Machine Learning Basics",Active,admin,NULL,"Laura White",450,Austin,"2024-05-01 11:00:00.000000",Online,admin,NULL
+6,5553344,"Tom White",Marketing,"Digital Marketing",Active,admin,NULL,"Sophia Lee",320,Miami,"2024-06-15 09:00:00.000000",Online,admin,NULL
+7,5554455,"Liam Green",IT,"Cloud Computing",Active,admin,NULL,"James Black",400,Seattle,"2024-07-22 10:00:00.000000",Hybrid,admin,NULL
+8,5555566,"Mason Gray",Design,"UX/UI Design",Active,admin,NULL,"Olivia Brown",275,Denver,"2024-08-30 14:00:00.000000",In-person,admin,NULL
+9,5556677,"Ella White",Business,"Business Analysis",Active,admin,NULL,"Ava Johnson",350,Boston,"2024-09-12 11:00:00.000000",Online,admin,NULL
+10,5557788,"Lucas Black",Programming,"React Development",Active,admin,NULL,"Isabella Martinez",280,Atlanta,"2024-10-05 10:00:00.000000",Online,admin,NULL
+11,5558899,"Grace Davis","Data Analytics","SQL for Data Analysis",Active,admin,NULL,"Benjamin Taylor",300,Phoenix,"2024-11-01 13:00:00.000000",In-person,admin,NULL
+12,5559900,"Zoe Wilson",IT,"DevOps Fundamentals",Active,admin,NULL,"Ethan Williams",360,Orlando,"2024-12-15 15:00:00.000000",Hybrid,admin,NULL
+13,5551234,"Oliver Hall",Programming,"Introduction to Python",Active,admin,NULL,"Mia Anderson",250,Dallas,"2025-01-10 09:00:00.000000",Online,admin,NULL
+14,5551011,"Nina White",Programming,"Advanced Java Programming",Active,admin,NULL,"Charlotte Green",450,"Las Vegas","2025-02-15 09:00:00.000000",Online,admin,NULL
+15,5552022,"Emma Clark",Development,"Mobile App Development",Active,admin,NULL,"Jackson Black",500,Portland,"2025-03-01 11:00:00.000000",Hybrid,admin,NULL
+16,5553033,"Sophia Lewis",Programming,"Full Stack Development",Active,admin,NULL,"Henry Adams",600,"San Diego","2025-04-20 14:00:00.000000",In-person,admin,NULL
+17,5554044,"Michael Smith",AI,"Artificial Intelligence",Active,admin,NULL,"Abigail Martinez",550,Philadelphia,"2025-05-10 10:00:00.000000",Online,admin,NULL
+18,5555055,"Ava Taylor",Blockchain,"Blockchain Fundamentals",Active,admin,NULL,"Samuel Johnson",400,Austin,"2025-06-12 12:00:00.000000",Hybrid,admin,NULL
+19,5556066,"Zoe Miller",Cybersecurity,"Ethical Hacking",Active,admin,NULL,"Mason White",480,"Washington D.C.","2025-07-25 13:00:00.000000",In-person,admin,NULL
+20,5557077,"Ella Thompson","Game Development","Game Development",Active,admin,NULL,"Liam Brown",370,Seattle,"2025-08-14 15:00:00.000000",Online,admin,NULL
+21,5558088,"Emma Wilson",Art,"Digital Photography",Active,admin,NULL,"James Davis",250,Miami,"2025-09-05 10:00:00.000000",In-person,admin,NULL
+30,5559191,"Rachel Green","Data Science","Introduction to Data Science",Active,admin,NULL,"Daniel Wilson",400,Nashville,"2025-10-15 09:00:00.000000",Online,admin,NULL
+31,5558282,"Ella Adams","Data Analytics","Advanced Excel for Data Analysis",Active,admin,NULL,"Sophia King",275,Chicago,"2025-11-01 14:00:00.000000",In-person,admin,NULL
+32,5557373,"Chloe Scott",Writing,"Creative Writing Workshop",Active,admin,NULL,"Oliver White",220,"New Orleans","2025-12-05 11:00:00.000000",Online,admin,NULL
+33,5556464,"Mia Young",Communication,"Public Speaking Skills",Active,admin,NULL,"Emily Johnson",150,Orlando,"2026-01-10 10:00:00.000000",In-person,admin,NULL
+34,5555555,"Zoe Harris",Database,"Introduction to SQL",Active,admin,NULL,"Aiden Brown",350,Atlanta,"2026-02-20 13:00:00.000000",Hybrid,admin,NULL
+35,5554545,"Liam Green",Cybersecurity,"Introduction to Cybersecurity",Active,admin,NULL,"Lucas Lee",300,"Los Angeles","2026-03-25 09:00:00.000000",Online,admin,NULL
+36,5553434,"Noah Martin",Humanities,"Introduction to Philosophy",Active,admin,NULL,"Isabella Walker",200,Seattle,"2026-04-15 15:00:00.000000",In-person,admin,NULL
+37,5552323,"Sophia Taylor",Marketing,"Social Media Management",Active,admin,NULL,"Ethan Rodriguez",275,Phoenix,"2026-05-12 12:00:00.000000",Online,admin,NULL
+38,555121,"Kevin Johnson",AI,"Intro to Machine Learning",Active,admin,NULL,"Grace Roberts",450,"San Francisco","2026-06-20 10:00:00.000000",Online,admin,NULL
+39,5551313,"Olivia Brown",Development,"Virtual Reality Development",Active,admin,NULL,"Hannah Lee",550,"Los Angeles","2026-07-15 13:00:00.000000",Hybrid,admin,NULL
+40,5551414,"Evelyn Scott",Blockchain,"Blockchain Technology",Active,admin,NULL,"Leo White",500,Austin,"2026-08-10 14:00:00.000000",In-person,admin,NULL
+41,5551515,"Mia Johnson","Game Development","Game Design Fundamentals",Active,admin,NULL,"Ethan King",390,Miami,"2026-09-05 11:00:00.000000",Online,admin,NULL
+42,55551616,"Benjamin Clark",Science,"Environmental Science",Active,admin,NULL,"Emma Martinez",310,Seattle,"2026-10-12 10:00:00.000000",In-person,admin,NULL
+43,5551717,"Liam Taylor",Art,"Digital Illustration",Active,admin,NULL,"Chloe Anderson",275,Chicago,"2026-11-20 12:00:00.000000",Online,admin,NULL
+44,5551818,"Noah Williams",Art,"Photography Techniques",Active,admin,NULL,"Amelia Harris",325,Denver,"2026-12-05 14:00:00.000000",Hybrid,admin,NULL
+45,5551919,"Sophia Young",Finance,"Financial Analysis Basics",Active,admin,NULL,"James Davis",400,Boston,"2027-01-15 09:00:00.000000",In-person,admin,NULL
+46,5552020,"Liam Green","Data Analytics","Data Visualiz with Tableau",Active,admin,NULL,"Charlotte Lewis",350,Atlanta,"2027-02-10 10:00:00.000000",Online,admin,NULL
+47,5552121,"Emily Carter",Design,"Introduction to Graphic Design",Active,admin,NULL,"Oliver Johnson",290,Orlando,"2027-03-05 13:00:00.000000",In-person,admin,NULL
+48,5552222,"Noah Thompson",Marketing,"Public Relations Strategies",Active,admin,NULL,"Emma Taylor",320,"New York","2027-04-01 11:00:00.000000",Hybrid,admin,NULL
+49,5552323,"Sophia Hill",Development,"Intro to Android Development",Active,admin,NULL,"Ava Robinson",420,"San Diego","2027-05-20 14:00:00.000000",Online,admin,NULL
+50,5552424,"Chloe Hall",Business,"Creative Problem Solving",Active,admin,NULL,"Benjamin Walker",275,Miami,"2027-06-15 09:00:00.000000",In-person,admin,NULL
+51,5552525,"Mia Clark",Cybersecurity,"Cybersecurity Risk Management",Active,admin,NULL,"James Harris",450,Boston,"2027-07-10 12:00:00.000000",Hybrid,admin,NULL
+52,5552626,"Lucas Scott",Design,"User Experience Research",Active,admin,NULL,"Isabella Nelson",350,Chicago,"2027-08-25 11:00:00.000000",Online,admin,NULL
+53,5552727,"Olivia Smith",AI,"Ethical Considerations in AI",Active,admin,NULL,"Aiden Young",300,Seattle,"2027-09-15 10:00:00.000000",In-person,admin,NULL
+54,5552828,"Liam White",Engineering,"Introduction to Robotics",Active,admin,NULL,"Sophia Anderson",600,"San Francisco","2027-10-01 10:00:00.000000",Hybrid,admin,NULL
+55,5552929,"Emma Wilson",Marketing,"Digital Marketing Analytics",Active,admin,NULL,"Oliver Martinez",320,"New York","2027-11-15 14:00:00.000000",Online,admin,NULL
+56,5553030,"Noah Taylor",Writing,"Content Writing Masterclass",Active,admin,NULL,"Chloe Brown",250,Chicago,"2027-12-05 11:00:00.000000",In-person,admin,NULL
+57,5553131,"Sophia Lee","Data Science","Python for Data Science",Active,admin,NULL,"Ethan Davis",375,Austin,"2028-01-20 09:00:00.000000",Online,admin,NULL
+58,5553232,"Mason Green",Design,"Advanced Photoshop Techniques",Active,admin,NULL,"Isabella Hall",290,"Los Angeles","2028-02-10 12:00:00.000000",Hybrid,admin,NULL
+59,5553333,"James King",Business,"Negotiation Skills Workshop",Active,admin,NULL,"Ava Clark",220,Miami,"2028-03-15 13:00:00.000000",In-person,admin,NULL
+60,5553434,"Emily Martinez","Project Management","Introduction to Agile Methodology",Active,admin,NULL,"Liam Rodriguez",400,Denver,"2028-04-10 10:00:00.000000",Online,admin,NULL
+61,5553535,"Zoe Johnson",IT,"Introduction to Quantum Computing",Active,admin,NULL,"Benjamin White",700,Seattle,"2028-05-25 15:00:00.000000",Hybrid,admin,NULL
+62,5553636,"Olivia Smith",Finance,"Financial Modeling in Excel",Active,admin,NULL,"James Harris",450,Boston,"2028-06-20 11:00:00.000000",In-person,admin,NULL
+63,55577737,"Aiden Wilson",Design,"Voice User Interface Design",Active,admin,NULL,"Charlotte Brown",320,"San Diego","2028-07-15 09:00:00.000000",Online,admin,NULL

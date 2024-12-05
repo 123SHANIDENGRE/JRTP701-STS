@@ -1,0 +1,10 @@
+2024-10-16 20:37:01,926[main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils      - Could not detect default configuration classes for test class [com.nt.SpringBootLoggingProj01ApplicationTests]: SpringBootLoggingProj01ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-16 20:37:02,043[main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper       - Found @SpringBootConfiguration com.nt.SpringBootLoggingProj01Application for test class com.nt.SpringBootLoggingProj01ApplicationTests
+2024-10-16 20:37:02,310[main] INFO  c.n.SpringBootLoggingProj01ApplicationTests       - Starting SpringBootLoggingProj01ApplicationTests using Java 21.0.4 with PID 12512 (started by shani in C:\Users\shani\git\JRTP701-STS\SpringBootLoggingProj3)
+2024-10-16 20:37:02,310[main] INFO  c.n.SpringBootLoggingProj01ApplicationTests       - Starting SpringBootLoggingProj01ApplicationTests using Java 21.0.4 with PID 12512 (started by shani in C:\Users\shani\git\JRTP701-STS\SpringBootLoggingProj3)
+2024-10-16 20:37:02,311[main] DEBUG c.n.SpringBootLoggingProj01ApplicationTests       - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-16 20:37:02,311[main] DEBUG c.n.SpringBootLoggingProj01ApplicationTests       - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-16 20:37:02,311[main] INFO  c.n.SpringBootLoggingProj01ApplicationTests       - No active profile set, falling back to 1 default profile: "default"
+2024-10-16 20:37:02,311[main] INFO  c.n.SpringBootLoggingProj01ApplicationTests       - No active profile set, falling back to 1 default profile: "default"
+2024-10-16 20:37:03,156[main] INFO  c.n.SpringBootLoggingProj01ApplicationTests       - Started SpringBootLoggingProj01ApplicationTests in 1.009 seconds (process running for 1.943)
+2024-10-16 20:37:03,156[main] INFO  c.n.SpringBootLoggingProj01ApplicationTests       - Started SpringBootLoggingProj01ApplicationTests in 1.009 seconds (process running for 1.943)

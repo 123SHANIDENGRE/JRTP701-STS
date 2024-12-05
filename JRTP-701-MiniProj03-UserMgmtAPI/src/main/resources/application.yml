@@ -1,0 +1,39 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+server:
+  port: 4044
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///jrtp701db
+    username: root
+    password: admin
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  application:
+    name: JRTP-701-MiniProj03-UserMgmtAPI
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: shanidengre@gmail.com
+    password: cuftapybrtusrupw
+    properties:
+      mail:
+        transport:
+          protocol: smtp
+        smtp:
+          starttls:
+            enable: true
+            required: true
+          auth: true
+          timeout: 5000
+          connectiontimeout: 50000
+          writetimeout: 5000
+mailbody:
+  registeruser:
+    location: src/main/java/com/nt/service/user_registration_body.txt
+  recoverpwd:
+    location: src/main/java/com/nt/service/recover_pwd_body.txt

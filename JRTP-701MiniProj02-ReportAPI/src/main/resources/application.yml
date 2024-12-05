@@ -1,0 +1,20 @@
+
+server:
+  port: 4042
+
+#MYSQL DataSource Configration
+spring:
+  application:
+    name: JRTP701-MiniProj02-ReportAPI
+  datasource:
+   driver-class-name: com.mysql.cj.jdbc.Driver
+   url: jdbc:mysql:///jrtp701db
+   username: root
+   password: admin   
+  jpa: 
+    show-sql:  true
+    hibernate:
+      ddl-auto: update
+  sql:
+     init:
+        mode: never
