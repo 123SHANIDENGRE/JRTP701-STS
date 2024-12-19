@@ -17,8 +17,8 @@ services:
             timeout: 5s
             retries: 3
           environment:
-                    -  MYSQL_ROOT_PASSWORD = root
-                    - MYSQL_DATABASE =jrtp701db
+             - MYSQL_ROOT_PASSWORD=root
+             - MYSQL_DATABASE=jrtp701db
           networks :
                  - sb-mysql-network
 networks: 
