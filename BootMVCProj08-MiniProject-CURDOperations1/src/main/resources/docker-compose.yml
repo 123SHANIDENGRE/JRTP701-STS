@@ -1,0 +1,26 @@
+
+services:
+     application:
+       image: sb-mysql-img
+       depends_on:
+         mysqldb:
+             condition: service_healthy
+       ports:
+           - "4041:4041"
+       networks:
+           - sb-mysql-network
+     mysqldb:
+          image: mysql:8.0
+          healthcheck:
+            test: ["CMD-SHELL","mysqladmin  ping   -h localhost"]
+            interval: 10s
+            timeout: 5s
+            retries: 3
+          environment:
+                    -  MYSQL_ROOT_PASSWORD = root
+                    - MYSQL_DATABASE =jrtp701db
+          networks :
+                 - sb-mysql-network
+networks: 
+  sb-mysql-network:
+ 
